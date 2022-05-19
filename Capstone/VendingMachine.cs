@@ -11,7 +11,7 @@ namespace Capstone
         #region Properties
         public decimal Balance { get; set; }
         //InventoryList set by Getinventory method. Holds sloit identifier and each item as an object of name, price, inventory count.
-        public Dictionary<string, IBuyable> InventoryList { get; set; } = new Dictionary<string, IBuyable>();
+        public Dictionary<string, IBuyable > InventoryList { get; set; } = new Dictionary<string, IBuyable>();
         #endregion
         #region Constructor
         public VendingMachine()
